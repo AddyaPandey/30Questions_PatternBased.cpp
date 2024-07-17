@@ -1,4 +1,5 @@
 /*
+
 ABCDE
 ABCD
 ABC
@@ -9,15 +10,15 @@ A
 #include <iostream>
 using namespace std;
 
-int main()
-{
- int n;
- char ch;
-    for (int i = 0; i < n; i++){
 
-        for (char ch = 'A'; ch <='A'+ (n -i -1); ch++);
+int main()
+{ int n;
+cin>> n;
+    for (char i = 1; i <= n; i++)
+    {
+        for (char j = 'A'; j <= 'A' + n- i; j++)
         {
-            cout << ch << " ";
+            cout << j << " ";
         }
         cout << endl;
     }

@@ -1,23 +1,22 @@
 /*
 
 A
-AB
-ABC
-ABCD
-ABCDE
+BB
+CCC
+DDDD
+EEEEE
 
  */
 #include <iostream>
 using namespace std;
 
-
 int main()
-{  
-    for (char i = 0; i < 5; i++)
+{
+    for (char i = 'A'; i <= 'E'; i++)
     {
-        for (char j = 'A'; j <= 'A' + i; j++)
+        for (char j = 'A'; j <= i; j++)
         {
-            cout << j << " ";
+            cout << i << " ";
         }
         cout << endl;
     }

@@ -1,10 +1,9 @@
 /*
 
-A
-AB
-ABC
-ABCD
-ABCDE
+   A
+  ABA
+ ABCBA
+ABCDCBA
 
  */
 #include <iostream>
@@ -12,10 +11,11 @@ using namespace std;
 
 
 int main()
-{  
-    for (char i = 0; i < 5; i++)
+{ int n;
+cin>> n;
+    for (char i = 1; i <= n; i++)
     {
-        for (char j = 'A'; j <= 'A' + i; j++)
+        for (char j = 'A'; j <= 'A' + n- i; j++)
         {
             cout << j << " ";
         }
