@@ -33,7 +33,7 @@ int main()
         }
         cout << endl;
     }
-     int iniS = 7;
+     int iniS = 2*5-2;
     for (int i = 1; i <= 5; i++)
     {
         for (int j = 1; j <= i; j++)
